@@ -1,50 +1,72 @@
 export const MenuGames = [
   {
-    img: "./public/Arcade da Blizzard®",
+    img: "./Arcade da Blizzard®.png",
     name: "Arcade da Blizzard®",
   },
   {
-    img: "./public/Diablo® II ressurected",
+    img: "./Diablo® II ressurected.png",
     name: "Diablo® II ressurected",
   },
   {
-    img: "./public/Diablo® III",
+    img: "./Diablo® III.png",
     name: "Diablo® III",
   },
   {
-    img: "./public/Diablo® Immortal",
+    img: "./Diablo® Immortal.png",
     name: "Diablo® Immortal",
   },
   {
-    img: "./public/Diablo® IV",
+    img: "./Diablo® IV.png",
     name: "Diablo® IV",
   },
   {
-    img: "./public/Hearthstone®",
+    img: "./Hearthstone®.png",
     name: "Hearthstone®",
   },
   {
-    img: "./public/Heroes of the storm®",
+    img: "./Heroes of the storm®.png",
     name: "Heroes of the storm®",
   },
   {
-    img: "./public/Overwatch® 2",
+    img: "./Overwatch® 2.png",
     name: "Overwatch® 2",
   },
   {
-    img: "./public/StarCraft® II",
+    img: "./StarCraft® II.png",
     name: "StarCraft® II",
   },
   {
-    img: "./public/StarCraft® Remastered",
+    img: "./StarCraft® Remastered.png",
     name: "StarCraft® Remastered",
   },
   {
-    img: "./public/World of Warcraft®",
+    img: "./World of Warcraft®.png",
     name: "World of Warcraft®",
   },
   {
-    img: "./public/Warcraft® III Reforged",
+    img: "./Warcraft® III Reforged.png",
     name: "Warcraft® III Reforged",
+  },
+];
+export const MenuSports = [
+  {
+    name: "Hearthstone® masters",
+    img: "./Hearthstone® masters.png",
+  },
+  {
+    name: "Campeonato Mundial de Arena WoW®",
+    img: "Campeonato Mundial de Arena WoW®.png",
+  },
+  {
+    name: "StarCraft® II WCS",
+    img: "StarCraft® II WCS.png",
+  },
+  {
+    name: "Copa Mundial de Overwatch®",
+    img: "./Copa Mundial de Overwatch®.png",
+  },
+  {
+    name: "Liga de Overwatch®",
+    img: "./Liga de Overwatch®.png",
   },
 ];

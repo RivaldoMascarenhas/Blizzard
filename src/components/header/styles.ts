@@ -16,7 +16,7 @@ export const HeaderContent = styled.header`
 export const MenuContainer = styled.div`
   display: flex;
   gap: 7rem;
-  padding: 1.75rem;
+  padding: 1.75rem 0;
   align-items: center;
 `;
 

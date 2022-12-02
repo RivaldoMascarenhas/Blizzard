@@ -7,5 +7,9 @@ export const defaultTheme = {
 
   base_text: "#574F4D",
 
-  backgroundItem: "rgba(0,0,0,0.3)",
+  background_item: "rgba(14, 17, 23, 0.8)",
+
+  black: "#000000",
+
+  footer_menu: "#15171B",
 } as const;
