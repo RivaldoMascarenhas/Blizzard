@@ -6,14 +6,16 @@ import {
 } from "./styles";
 import banner from "../../assets/path2894.png";
 import { User } from "phosphor-react";
-import { Menu } from "../menu";
+import { Menu } from "./menu";
 
 export function Header() {
   return (
     <HeaderContainer>
       <HeaderContent>
         <MenuContainer>
-          <img src={banner} />
+          <div>
+            <img src={banner} />
+          </div>
           <Menu />
         </MenuContainer>
         <ButtonContainer>

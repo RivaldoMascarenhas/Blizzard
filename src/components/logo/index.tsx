@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { InfoGames } from "../InfoGame";
+import { InfoGames } from "./InfoGame";
 import {
   Logo,
   ContainerSelect,
@@ -8,6 +8,7 @@ import {
   ItemSelect,
   ItemWow,
   ContainerLogoGames,
+  Barra,
 } from "./styles";
 
 type TheGame = "diablo" | "hearthstone" | "wow" | string;
@@ -16,7 +17,7 @@ export function LogoGames() {
   const [game, setGame] = useState<TheGame>("diablo");
 
   return (
-    <>
+    <div>
       <Logo img={game} />
       <ContainerLogoGames>
         <ContainerSelect onValueChange={setGame}>
@@ -28,6 +29,7 @@ export function LogoGames() {
         </ContainerSelect>
         <InfoGames game={game} />
       </ContainerLogoGames>
-    </>
+      <Barra img={game} />
+    </div>
   );
 }

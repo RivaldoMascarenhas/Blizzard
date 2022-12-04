@@ -1,4 +1,6 @@
+import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
+import { ListGames } from "../../components/list";
 import { LogoGames } from "../../components/logo";
 
 export function Home() {
@@ -6,6 +8,8 @@ export function Home() {
     <div>
       <Header />
       <LogoGames />
+      <ListGames />
+      <Footer />
     </div>
   );
 }

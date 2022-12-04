@@ -8,16 +8,26 @@ export const HeaderContainer = styled.div`
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 `;
 export const HeaderContent = styled.header`
-  max-width: 1440px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
 `;
 export const MenuContainer = styled.div`
   display: flex;
   gap: 7rem;
   padding: 1.75rem 0;
   align-items: center;
+
+  & > div {
+    height: 50px;
+    width: 112px;
+    & > img {
+      position: absolute;
+      border-bottom: 4px solid ${(props) => props.theme.blue};
+      padding-bottom: 2.3rem;
+    }
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -37,6 +47,7 @@ export const ButtonContainer = styled.div`
     color: ${(props) => props.theme.white};
     width: 115px;
     height: 41px;
+    cursor: pointer;
   }
   & > button:last-child {
     background: ${(props) => props.theme.blue};

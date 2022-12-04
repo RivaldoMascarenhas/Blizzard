@@ -17,6 +17,7 @@ export const Logo = styled.div<ContainerLogoProps>`
         return `url('./wow-bg.png')`;
     }
   }};
+  transition: all 1s;
   width: 100%;
   height: 736px;
   background-repeat: no-repeat;
@@ -30,6 +31,7 @@ export const ContainerSelect = styled(RadioGroup.Root)`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
 `;
 
 const item = styled(RadioGroup.Item)<ContainerLogoProps>`
@@ -37,6 +39,7 @@ const item = styled(RadioGroup.Item)<ContainerLogoProps>`
   width: 48px;
   height: 48px;
   background-repeat: no-repeat;
+  cursor: pointer;
 `;
 export const ItemDiablo = styled(item)`
   ${(props) => {
@@ -83,4 +86,17 @@ export const ContainerLogoGames = styled.div`
   margin: 0 auto;
   gap: 10rem;
   padding-top: 10rem;
+  height: 736px;
+`;
+export const Barra = styled.div<ContainerLogoProps>`
+  width: ${(props) => {
+    switch (props.img) {
+      case "diablo":
+        return `33.3%`;
+      case "hearthstone":
+        return "66.6%";
+    }
+  }};
+  height: 4px;
+  background: ${(props) => props.theme.blue};
 `;

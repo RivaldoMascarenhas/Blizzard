@@ -1,6 +1,6 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { CaretDown } from "phosphor-react";
-import { MenuGames, MenuSports } from "../MenuListGames";
+import { MenuGames, MenuSports } from "../../../data/MenuListGames";
 import {
   Content,
   Footer,
