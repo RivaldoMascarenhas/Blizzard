@@ -31,8 +31,8 @@ export function ListAllGames() {
     <ContainerGamesAll>
       {list.map((item, index) => {
         return (
-          <div>
-            <GameLogo key={index} title={item.name} background={item.image}>
+          <div key={index}>
+            <GameLogo title={item.name} background={item.image}>
               <img src={item.logo} />
             </GameLogo>
             <DescriptionName>{item.name}</DescriptionName>

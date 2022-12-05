@@ -72,27 +72,27 @@ export function Menu() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M1 10V10C1 5.029 5.029 1 10 1V1C14.971 1 19 5.029 19 10V10C19 14.971 14.971 19 10 19V19C5.029 19 1 14.971 1 10Z"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M10 14V6"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M13 11L10 14L7 11"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 <span>Downloads</span>
@@ -106,34 +106,34 @@ export function Menu() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M19.849 16.396C20.579 15.096 21 13.598 21 12C21 7.029 16.971 3 12 3C7.029 3 3 7.029 3 12C3 16.971 7.029 21 12 21C13.598 21 15.096 20.579 16.396 19.849L21 21L19.849 16.396Z"
                     stroke="#61CDFF"
-                    stroke-width="1.5882"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5882"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M11.823 12.323C11.921 12.225 12.079 12.225 12.177 12.323C12.275 12.421 12.275 12.579 12.177 12.677C12.079 12.775 11.921 12.775 11.823 12.677C11.726 12.579 11.726 12.421 11.823 12.323"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M7.82299 12.323C7.92099 12.225 8.07899 12.225 8.17699 12.323C8.27499 12.421 8.27499 12.579 8.17699 12.677C8.07899 12.775 7.92099 12.775 7.82299 12.677C7.72599 12.579 7.72599 12.421 7.82299 12.323"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M15.823 12.323C15.921 12.225 16.079 12.225 16.177 12.323C16.275 12.421 16.275 12.579 16.177 12.677C16.079 12.775 15.921 12.775 15.823 12.677C15.726 12.579 15.726 12.421 15.823 12.323"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 <span>Fóruns dos jogos</span>
@@ -167,33 +167,33 @@ export function Menu() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M13 16.5H11C8.791 16.5 7 14.709 7 12.5V4.5C7 3.948 7.448 3.5 8 3.5H16C16.552 3.5 17 3.948 17 4.5V12.5C17 14.709 15.209 16.5 13 16.5Z"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                   />
-                  <path d="M12 16.5V20.5" stroke="#61CDFF" stroke-width="1.5" />
+                  <path d="M12 16.5V20.5" stroke="#61CDFF" strokeWidth="1.5" />
                   <path
                     d="M9 20.5H15"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M17 6.5H20C20.552 6.5 21 6.948 21 7.5V9.5C21 11.157 19.657 12.5 18 12.5H17"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M7 6.5H4C3.448 6.5 3 6.948 3 7.5V9.5C3 11.157 4.343 12.5 6 12.5H7"
                     stroke="#61CDFF"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
 
