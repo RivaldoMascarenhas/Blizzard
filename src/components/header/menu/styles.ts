@@ -14,12 +14,16 @@ export const Trigger = styled(NavigationMenu.Trigger)`
   border: none;
   z-index: 1;
   cursor: pointer;
-  &:hover > svg {
-    transition: all 0.5s;
-    transform: rotate(180deg);
-    color: ${(props) => props.theme.blue};
+
+  &[data-state="open"] {
+    svg {
+      transform: rotate(-180deg);
+      transition: all 0.5s;
+      color: ${(props) => props.theme.blue};
+    }
   }
 `;
+
 interface ContentProps {
   heigth?: number;
 }

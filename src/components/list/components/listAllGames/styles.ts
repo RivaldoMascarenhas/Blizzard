@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-interface GameLogoProps {
-  background: string;
-}
 export const ContainerGamesAll = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -11,26 +8,31 @@ export const ContainerGamesAll = styled.div`
   margin-bottom: 5rem;
   width: 100%;
 `;
-export const GameLogo = styled.div<GameLogoProps>`
-  background: ${(props) => {
-    return `url("${props.background}");`;
-  }};
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 
-  width: 100%;
-  height: 500px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding-bottom: 4rem;
-
-  border: none;
+export const LogoContainer = styled.div`
+  position: relative;
+  overflow: hidden;
   border-radius: 6px;
+  border: none;
+  height: 450px;
+  cursor: pointer;
+
+  &:hover > img:first-child {
+    transform: scale(1.1);
+  }
 `;
+export const GameImg = styled.img`
+  width: 100%;
+  height: auto;
+  transition: 0.5s;
+  transform-origin: bottom center;
+`;
+export const GameLogo = styled.img`
+  position: absolute;
+  right: 5.2rem;
+  bottom: 3.5rem;
+`;
+
 export const DescriptionName = styled.p`
   font-size: 1.25rem;
   margin-top: 1rem;
@@ -47,7 +49,7 @@ export const LastItemOfList = styled.div`
   align-items: center;
   gap: 2rem;
 
-  height: 500px;
+  height: 450px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 6px;
 

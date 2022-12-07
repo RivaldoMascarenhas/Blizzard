@@ -3,25 +3,25 @@ import windows from "../../../../assets/windows.svg";
 import linux from "../../../../assets/linux.svg";
 import { ButtonStyles } from "./styles";
 
-export function Button() {
-  const os = ["Windows", "Linux", "Mac"];
+enum OS {
+  WINDOWS = "Windows",
+  MAC = "Mac",
+  LINUX = "Linux",
+}
 
-  const plataform: string | undefined = os.find((system) =>
-    navigator.userAgent.includes(system)
-  );
-  function icon() {
-    switch (plataform) {
-      case "Windows":
-        return <img src={windows} />;
-      case "Linux":
-        return <img src={linux} />;
-      case "Mac":
-        return <img src={mac} />;
-    }
-  }
+const icons = {
+  [OS.WINDOWS]: windows,
+  [OS.LINUX]: linux,
+  [OS.MAC]: mac,
+};
+export function Button() {
+  const os = [OS.WINDOWS, OS.LINUX, OS.MAC];
+
+  const plataform = os.find((system) => navigator.userAgent.includes(system));
+
   return (
     <ButtonStyles>
-      {icon()}
+      <img src={plataform && icons[plataform]} alt="" />
       <span>Baixar para o {plataform}</span>
     </ButtonStyles>
   );

@@ -3,8 +3,10 @@ import {
   ContainerGamesAll,
   DescriptionCategory,
   DescriptionName,
+  GameImg,
   GameLogo,
   LastItemOfList,
+  LogoContainer,
 } from "./styles";
 import axios from "axios";
 
@@ -32,9 +34,10 @@ export function ListAllGames() {
       {list.map((item, index) => {
         return (
           <div key={index}>
-            <GameLogo title={item.name} background={item.image}>
-              <img src={item.logo} />
-            </GameLogo>
+            <LogoContainer>
+              <GameImg id="name" src={item.image} />
+              <GameLogo src={item.logo} />
+            </LogoContainer>
             <DescriptionName>{item.name}</DescriptionName>
             <DescriptionCategory>{item.category}</DescriptionCategory>
           </div>
