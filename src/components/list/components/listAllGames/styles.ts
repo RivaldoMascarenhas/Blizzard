@@ -17,11 +17,13 @@ export const LogoContainer = styled.div`
   height: 450px;
   cursor: pointer;
 
-  &:hover > img:first-child {
+  :hover img:first-child {
     transform: scale(1.1);
   }
 `;
 export const GameImg = styled.img`
+  position: absolute;
+  z-index: 0;
   width: 100%;
   height: auto;
   transition: 0.5s;
