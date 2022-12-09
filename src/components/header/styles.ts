@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   background: transparent;
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);

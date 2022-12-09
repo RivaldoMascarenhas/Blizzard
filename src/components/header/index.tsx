@@ -8,6 +8,7 @@ import banner from "../../assets/path2894.png";
 import { User } from "phosphor-react";
 import { Menu } from "./menu";
 import * as Dialog from "@radix-ui/react-dialog";
+import { Modal } from "../modal";
 
 export function Header() {
   return (
@@ -28,13 +29,7 @@ export function Header() {
                 <User size={20} /> Logar
               </button>
             </Dialog.Trigger>
-            <Dialog.Portal>
-              <Dialog.Overlay />
-              <Dialog.Content>
-                <Dialog.Close />
-                <Dialog.Title>TESTE</Dialog.Title>
-              </Dialog.Content>
-            </Dialog.Portal>
+            <Modal />
           </Dialog.Root>
         </ButtonContainer>
       </HeaderContent>
