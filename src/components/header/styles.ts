@@ -48,9 +48,21 @@ export const ButtonContainer = styled.div`
     width: 115px;
     height: 41px;
     cursor: pointer;
+    transition: 1s;
+    :hover {
+      background: ${(props) => props.theme.white};
+      color: black;
+      border: black;
+    }
   }
   & > button:last-child {
     background: ${(props) => props.theme.blue};
     border: none;
+    transition: 0.5s;
+
+    :hover {
+      background: #32aeff;
+      color: white;
+    }
   }
 `;
