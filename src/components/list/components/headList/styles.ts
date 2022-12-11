@@ -11,6 +11,13 @@ export const HeaderText = styled.div`
   display: flex;
   gap: 10.68rem;
 
+  @media screen and (max-width: 1440px) {
+    gap: 8rem;
+  }
+  @media screen and (max-width: 978px) {
+    gap: 6rem;
+  }
+
   & > span {
     font-size: 0.9375rem;
     color: rgba(143, 145, 153, 1);
@@ -40,5 +47,8 @@ export const AllGames = styled.div`
   & > a {
     text-decoration: none;
     color: ${(props) => props.theme.blue};
+  }
+  @media screen and (max-width: 1440px) {
+    padding: 0 1rem;
   }
 `;

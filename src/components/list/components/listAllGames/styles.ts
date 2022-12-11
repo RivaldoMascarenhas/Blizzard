@@ -7,6 +7,9 @@ export const ContainerGamesAll = styled.div`
   padding: 1rem;
   margin-bottom: 5rem;
   width: 100%;
+  @media screen and (max-width: 978px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -33,6 +36,10 @@ export const GameLogo = styled.img`
   position: absolute;
   right: 5.2rem;
   bottom: 3.5rem;
+  @media screen and (max-width: 978px) {
+    right: 3.5rem;
+    bottom: 5rem;
+  }
 `;
 
 export const DescriptionName = styled.p`
@@ -63,5 +70,9 @@ export const LastItemOfList = styled.div`
 
   & > div > svg > rect {
     fill: #fff;
+  }
+
+  @media screen and (max-width: 978px) {
+    height: 380px;
   }
 `;
