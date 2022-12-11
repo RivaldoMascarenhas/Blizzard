@@ -7,7 +7,7 @@ export const ContainerGamesAll = styled.div`
   padding: 1rem;
   margin-bottom: 5rem;
   width: 100%;
-  @media screen and (max-width: 978px) {
+  @media screen and (max-width: 976px) {
     grid-template-columns: repeat(3, 1fr);
   }
 `;
