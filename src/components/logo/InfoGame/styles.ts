@@ -4,8 +4,10 @@ interface InfoGamesProps {
 }
 export const InfoGamesContainer = styled.div`
   display: flex;
-  gap: 20.3rem;
-  height: 508px;
+  position: relative;
+  width: 100%;
+  padding: 0 14rem;
+  align-items: flex-start;
 `;
 export const InfoStyles = styled.div`
   display: flex;
@@ -46,8 +48,10 @@ export const GifContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  gap: 8rem;
 
+  position: absolute;
+  right: 1rem;
   & > div > p {
     display: flex;
     justify-content: flex-end;
@@ -94,7 +98,6 @@ export const Gif = styled.div<InfoGamesProps>`
           background: url('./diablo-animation.gif');
           background-repeat: no-repeat;
           background-size: cover;
-
         }
         `;
       case "hearthstone":
@@ -105,7 +108,6 @@ export const Gif = styled.div<InfoGamesProps>`
           background-size: cover;
         }
         `;
-
       case "wow":
         return `background: url('./wow-animation-cover.png');
          &:hover {

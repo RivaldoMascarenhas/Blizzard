@@ -20,6 +20,7 @@ export function LogoGames() {
     <div>
       <Logo img={game} />
       <ContainerLogoGames>
+        <InfoGames game={game} />
         <ContainerSelect onValueChange={setGame}>
           <ItemDiablo value="diablo" img={game} />
           <ItemHearthstone value="hearthstone" img={game} />
@@ -27,7 +28,6 @@ export function LogoGames() {
           <ItemSelect img="" fix="1" />
           <ItemSelect img="" fix="2" />
         </ContainerSelect>
-        <InfoGames game={game} />
       </ContainerLogoGames>
       <Barra img={game} />
     </div>

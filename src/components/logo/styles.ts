@@ -28,10 +28,20 @@ export const Logo = styled.div<ContainerLogoProps>`
 `;
 
 export const ContainerSelect = styled(RadioGroup.Root)`
+  position: absolute;
+  top: 15rem;
   display: flex;
+  padding: 0 2rem;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: row;
+    justify-content: flex-start;
+    top: 40rem;
+    left: 2rem;
+  }
 `;
 
 const item = styled(RadioGroup.Item)<ContainerLogoProps>`
@@ -87,6 +97,12 @@ export const ContainerLogoGames = styled.div`
   gap: 10rem;
   padding-top: 10rem;
   height: 736px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 768px;
+    flex-direction: column;
+    gap: 0;
+  }
 `;
 export const Barra = styled.div<ContainerLogoProps>`
   width: ${(props) => {

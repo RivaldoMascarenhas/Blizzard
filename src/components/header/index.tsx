@@ -4,7 +4,7 @@ import {
   HeaderContent,
   MenuContainer,
 } from "./styles";
-import banner from "../../assets/path2894.png";
+import logo from "../../assets/path2894.png";
 import { User } from "phosphor-react";
 import { Menu } from "./menu";
 import * as Dialog from "@radix-ui/react-dialog";
@@ -16,7 +16,7 @@ export function Header() {
       <HeaderContent>
         <MenuContainer>
           <div>
-            <img src={banner} />
+            <img src={logo} />
           </div>
           <Menu />
         </MenuContainer>

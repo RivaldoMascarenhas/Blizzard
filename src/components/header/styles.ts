@@ -12,6 +12,10 @@ export const HeaderContent = styled.header`
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
+
+  @media screen and (max-width: 1440px) {
+    padding: 0 1rem;
+  }
 `;
 export const MenuContainer = styled.div`
   display: flex;
